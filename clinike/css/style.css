@@ -1,0 +1,137 @@
+:root{
+    --indigo:#6610f2;
+    --pink:#d63384;
+    --red:#dc3545;
+    --orange:#fd7e14;
+    --gray-200:#e9ecef;
+    --light:#f8f9fa;
+    --dark:#212529;
+    --teal:#20c997;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+/* body
+{
+    background-color: var(--gray-200);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ 
+
+#form{
+    background-color: white;
+    margin-top: 20px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 55%;
+   
+}
+@media screen and (max-width: 878px){
+    #form{
+        width: 100%;
+    }
+    
+}
+form:hover{
+    box-shadow: 0 0 15px var(--indigo);
+}
+
+form .form-caption{
+    background-color: var(--indigo);
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+form .form-group{
+    margin-top: 10px;
+     position: relative;
+}
+form input,
+form select,
+form textarea
+{
+    width: 100%;
+    border: 2px solid var(--gray-200);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    font-size: 14px;
+}
+form .form-group i{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+form .form-group small{
+    display: inline-block;
+    margin-top: 5px;
+    color: var(--red);
+    display: none;
+
+}
+
+form .form-group .fa-circle-info
+{
+    color: var(--red);
+    display: none;
+}
+
+form .form-group .fa-circle-check{
+    color: var(--teal);
+    display: none;
+}
+form .form-group.error small
+{
+    display: inline-block;
+}
+form .form-group.error .fa-circle-info{
+    display: block;
+}
+
+
+form .form-group.error input,
+form .form-group.error select,
+form .form-group.error textarea
+{
+    border: 1px solid var(--red);
+}
+form .form-group.success .fa-circle-check
+{
+    display: block;
+}
+form .form-group.success input,
+form .form-group.success select,
+form .form-group.success textarea
+{
+    border: 1px solid var(--teal);
+}
+
+form .form-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+form .form-btn button:hover{
+    box-shadow: 3px 3px 0 var(--red);
+}
+
+form .form-btn button{
+    border: 0;
+    outline: 0;
+    background-color: var(--indigo);
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

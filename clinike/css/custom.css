@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+     transition: all 0.5s ease;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 95vh;
+}
+.bo{
+    /* border: 2px solid red; */
+}
+
+text{
+    text-align: center;
+}
+
+.siz{
+   
+    height: 70vh;
+}
+.bgc{
+    background-color: rgb(58, 156, 58);
+    color: white;
+}
+#a{
+    color: white;
+}
+.ss{
+    height: 100%;
+    /* margin-left: -12px; */
+    width: 100%;
+}
+
+#a:hover{
+    color: red;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+.lh{
+    line-height: 40px;
+    margin-left: 20px;
+}
+.h1{
+    line-height: 50px;
+    margin-left: 15px;
+    color: rgb(243, 4, 131);
+}
+.carde{
+    color: rgb(243, 4, 131);
+    border: none;
+    font-weight: bold;
+}
+.cardr{
+    border: none;
+   
+}
+.cardimage{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(119, 111, 111);
+    transition: all 0.8s ease;
+   
+}
+.cardimage:hover{
+    border: 3px solid red ;
+    border-radius: 100%;
+    transition: all 0.8s ease;
+}
+.sp{
+    
+     text-align: center;
+   
+}
+/* .bbt{
+    border-bottom: 3px solid red;
+} */
+#img1{
+    background-image: url(p1.jpg);
+ }
+
+ .ims{
+    height: 50vh;
+ }
+
+ .im
+
+ .w{
+    width: 100%;
+ }
+ /* .container-fulid .row col{
+    background-image: url(p1.jpg);
+    background-size: cover;
+ } */
+
+ #imga{
+    width: 100%;
+ }
+
+ .fluid{
+    box-shadow: 2px 2px 8px gray;
+ }
+
+ .imge{
+	padding:30em 0;
+    background-color: rgba(25, 42, 86, 1);
+    background:  url(b2.jpg) no-repeat right center;
+ }
+
+ .mr{
+    margin-left: -10px;
+ }
+ .spa{
+    /* margin-top: 70px; */
+    text-align: center;
+ }
+
+ .spaa{
+    
+ }
+ .cardimm{
+    height: 35vh;
+    margin-bottom: 15px;
+ }
+
+ .cardimm:hover{
+    background:  url(../images/f1.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 15px;
+    height: 35vh;
+ }
+ .car{
+     width: 80px;
+    height: 80px;
+    border: 2px solid rgb(243, 14, 136);
+    border-radius: 100%;
+    
+    
+ }
+ .maxw{
+    max-height: 300px;
+ }
+ .car:hover{
+    border: 2px solid white;
+    
+    border-radius: 100%;
+ }
+ .bor{
+    border-top: 4px solid red;
+    box-shadow: 2px 2px 8px gray;
+    border-radius: 10px;
+ }
+ .sps{
+    margin-top: 15px;
+ }
+
+ 
+  
+        .forme{
+            background-color: rgb(98, 201, 144);
+            padding: 1.5rem;
+            width: 100%;
+            border-radius: 0.5rem;
+            box-shadow: 1px 1px 20px gray;
+        }
+        h2
+        {
+            margin: 0 0 1rem 0;
+            text-align: center;
+        }
+
+        .form_group
+        {
+            display: flex;
+            flex-direction: column;  
+            height: 3.8rem;
+            margin-bottom: 0.4rem;
+            font-weight: bold;
+            color: rgb(5, 3, 3);
+        }
+
+        input, select
+        {
+            height: 100%;
+            margin-top: 0.4rem;
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid grey ;
+        }
+        button
+        {
+            background-color: rgb(95, 20, 20);
+            padding: 1rem;
+            border: 0;
+            outline: 0;
+            color: white;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+
+        .pngg{
+            height: 50vh;
+        }
+    .col-color{
+        color: white;
+        
+    }
+    .col-color-c{
+        text-align: justify;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .cardh{
+        transition: all 0.5s ease;
+    }
+    .cardh:hover{
+        transform: translateY(15px);
+        box-shadow: 3px 3px 10px gray;
+    }
+    .videoc{
+      
+       
+    }
+    .nab{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .nab:hover{
+        color: rgb(255, 0, 0);
+        ;
+    }
+
+   
+ /* 
+ 
+ .col-md-6{
+    background-image: url(p1.jpg);
+ } */
